@@ -1605,4 +1605,4 @@ bot.on('voiceStateUpdate', (oldMember, newMember) =>{
 	}
 });
 
-bot.login(botLogin.token);
+bot.login(Process.env.token);
